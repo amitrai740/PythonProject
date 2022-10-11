@@ -1,3 +1,4 @@
+# find Lcm of two number
 a=int(input("enter 1st number"))
 b=int(input("enter 2nd number"))
 m=max(a,b)

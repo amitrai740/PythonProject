@@ -7,6 +7,6 @@ while s < n//10:
     n = n//10
 
 if s == n or s == n//10:
-    print("palindrome")
+    print("palindrome !!!")
 else:
-    print("not palindrome")
+    print("not palindrome !!!")

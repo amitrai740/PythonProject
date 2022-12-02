@@ -4,9 +4,12 @@ def bubble(lst):
         for j in range(l-1-i):
             if(lst[j]>lst[j+1]):
                 lst[j],lst[j+1]=lst[j+1],lst[j]
+    return lst
 
 
-    print(lst)
+d=list(((int(x) for x in input("Enter the list").split(","))))
+e=(bubble(d))
+print(e)
 
 
 

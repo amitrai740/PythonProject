@@ -1,5 +1,5 @@
 lst=[5,6,1,2,3,4]
-target=4
+target=2
 l=0
 u=len(lst)-1
 while(l<=u):

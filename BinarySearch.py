@@ -29,3 +29,17 @@ def binary(lst,n):
 lst=[10,20,30,40,50,60,70]
 n=500
 binary(lst,n)
+a=5
+b=0
+try:
+    print(a/b)
+    k = int(input("enter a number"))
+    print(k)
+
+except ZeroDivisionError as e:
+   print(e,'error')
+
+except ValueError:
+    print("Invalid error")
+except Exception as e:
+    print(e)
